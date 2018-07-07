@@ -31,7 +31,7 @@ int main(int argc, char **argv)
        // bzero((char *)&server, sizeof(struct sockaddr_in));
         server.sin_family = AF_INET;
         server.sin_port = port;
-        server.sin_addr.s_addr = inet_addr("10.2.0.241");
+        server.sin_addr.s_addr = inet_addr("127.0.0.1");
 	
         /* connecting to the server */
         if(connect(sd, (struct sockaddr *)&server, sizeof(server)) == -1)
