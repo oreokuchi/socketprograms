@@ -15,15 +15,21 @@ socket programs in c
 4]checkclient.c and checkserver.c -checksum
 
 
+5]crcclient.c and crcserver.c -CRC
+
+
+6]hclient.c and hserver.c  -Hamming Code
+
+
 TO RUN :
 1]
-run server programs first as
+run server program first as
 
 ./a.out 8000
 
 
 
 2]
-run client programs as
+run client program as
 
 ./a.out 8000
